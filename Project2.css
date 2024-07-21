@@ -1,0 +1,175 @@
+html {
+margin: 50px;
+}
+
+body {background-color: #5B7C99;
+text-align: center;}
+
+/* Buttons */
+.buttons {
+  background-color: #ffffff;  /*Slate Blue */
+  border: 3px solid black;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition-duration: .5s;
+  height: 80px;
+  width: 150px;
+  text-anchor: middle;
+padding: 10px;
+box-shadow: 3px 3px 5px black;
+  }
+
+.buttons:hover {
+    background-color: #850101;
+    color: #ffffff;
+    box-shadow: 0px 3px 10px black;
+    border: 2px solid white;
+    
+}
+
+.disabled-button {
+    opacity: .5;
+    cursor: not-allowed;
+    background-color: #5B7C99;  /*Slate Blue */
+    border: 3px solid black;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: .5s;
+    height: 40px;
+    width: 150px;
+    text-anchor: middle;
+  
+}
+
+/* Images */
+
+.logo {
+    border-radius: 8px;
+    box-shadow: 17px 17px 40px;
+}
+
+.mainheader {
+    font-family: Rye, serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 2rem;
+}
+.mainheader-no-padding {
+    font-family: Rye, serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.subhead {
+    font-family: "Brush Script MT", cursive;
+     font-size: 40px; 
+     font-style: normal; 
+     font-weight: 400;
+    }
+
+.subhead2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #850101;
+    text-shadow: 1px 1px 15px black;
+    font-weight: bold;
+    /* how can I add space between the text and the underline? Michael sending info via Slack */
+    text-decoration: 2px underline solid black;
+    }
+
+.subhead3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkgoldenrod;
+    text-shadow: 1px 1px 15px black;
+    font-weight: bold;  
+    border: 2px dotted black;
+    -webkit-text-stroke: .5px black;
+    padding: 20px;
+}
+
+.tabletext {
+    font-family: Rye, serif;
+    font-size: 18px;
+    font-weight: 20;
+    padding: 1rem;
+    text-align: center;
+    width: 100px;
+    background-color: lightgrey;
+    
+}
+.protientext {
+    font-family: Rye, serif;
+    font-size: 18px;
+    font-weight: 20;
+    text-align: center;
+    width: 100px;
+    padding: 1rem;
+    background-color: lightgray
+}
+.tabledata{
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    line-height: 2;
+}
+.list-img-text {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: "URW Chancery L", cursive;
+}
+
+.menuimg {
+    float: left;
+    width: 300px;
+
+}
+
+.menu-item-text{
+    float: right;
+    text-align: left;
+}
+
+.price{
+    font-size: 15;
+    text-align: center;
+    border:2px solid green;
+    float: right;
+}
+
+.ppcontainer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #850101;
+}
+
+.flex-parent {
+    display: flex;
+  }
+  .flex-child {
+    flex: 1rem;
+    text-align: center;
+    padding: left 1px;
+
+  }
+
+.flex-img{
+    flex: 1rem;
+}
+
